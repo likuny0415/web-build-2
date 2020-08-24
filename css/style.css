@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: grid;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.fit {
+  max-width: 95%;
+  max-height: 100vh;
+  margin: auto;
+  width: 100%;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 1em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 100%;
+}
+
+.image-resize {
+  padding: 10px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  background-color: #f4f4f4;
+  border: 1px #dcdcd;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Baloo Tamma 2', sans-serif;
+  font-size: 60px
+}
